@@ -57,8 +57,10 @@ angular.module('ionicApp', ['ionic'])
 })
 
 // Navigation
-.config(function($stateProvider, $urlRouterProvider) {
+.config(function($ionicConfigProvider, $stateProvider, $urlRouterProvider) {
   $urlRouterProvider.otherwise('/Diet');
+
+  $ionicConfigProvider.tabs.position('bottom');
 
   $stateProvider.state('Diet', {
     url: '/Diet',
