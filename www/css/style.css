@@ -7,3 +7,15 @@
 .item {
 	background-color: #f8f8f8;
 }
+
+.tab-title {
+	font-size: 35px;
+}
+
+.tab-nav {
+	height: 100px;
+}
+
+.tab-item {
+	padding-top: 25px;
+}
